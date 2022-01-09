@@ -1,3 +1,5 @@
 .box {
     background-color: aqua;
+    padding: 100px;
+    margin: 100px;
 }
