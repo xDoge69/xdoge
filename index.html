@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css">
     <link rel="shortcut icon" type="image" href="qt.png">
     <style type="text/css">
         body {
@@ -11,7 +12,7 @@
         }
         .content {
             background: white;
-            width: 13%;
+            width: 15%;
             padding: 15px;
             margin: 60px auto;
             font-family: calibri;
@@ -32,6 +33,20 @@
     <title>-xDoge.</title>
 </head>
 <body>
+    <header class="text-gray-400 bg-gray-900 body-font">
+        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+          <a class="flex title-font font-medium items-center text-white mb-4 md:mb-0">
+            </svg>
+            <span class="ml-3 text-xl">-xDoge.</span>
+          </a>
+          <nav class="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-700	flex flex-wrap items-center text-base justify-center">
+            <a href="https://discord.gg/zbxUWKEz54" target="_blank" class="disc">Discord</a>
+            <!-- <a class="mr-5 hover:text-white">Second Link</a>
+            <a class="mr-5 hover:text-white">Third Link</a>
+            <a class="mr-5 hover:text-white">Fourth Link</a> -->
+          </nav>
+        </div>
+      </header>
     <div class="content">
         <p>Hi there! I'm Doge.</p>
     </div>
